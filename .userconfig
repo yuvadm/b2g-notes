@@ -1,3 +1,5 @@
 export CC=gcc-4.6
 export CXX=g++-4.6
 
+export GAIA_KEYBOARD_LAYOUTS=en,he
+
