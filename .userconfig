@@ -1,5 +1,10 @@
+# Use GCC 4.6
 export CC=gcc-4.6
 export CXX=g++-4.6
 
+# Use make 3.82 and JDK 6 which reside in ~/bin
+export PATH=~/bin:$PATH
+
+# Use en and he keyboards by default
 export GAIA_KEYBOARD_LAYOUTS=en,he
 
