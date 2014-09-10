@@ -4,7 +4,14 @@ A collection of notes, scripts and helper files for building [B2G](https://githu
 
 ## Build
 
-Check out the settings used in [.userconfig](.userconfig)
+Check out the settings used in [.userconfig](.userconfig).
+
+Load the udev rules prior to connecting the device:
+
+```bash
+$ cp 90-flame.rules /etc/udev/rules.d/
+$ sudo udevadm control --reload-rules
+```
 
 ## Applications
 
